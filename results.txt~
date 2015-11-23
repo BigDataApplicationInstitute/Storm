@@ -1,0 +1,51 @@
+.[result] GetAllPurposesEcProd			Passed
+.[result] GetFirewallMarkById			Passed
+.[result] GetFirewallMarksAll			Passed
+.[result] GetPurposesLoadBalancedOnly			Passed
+.[result] GetServerCountByEdgeNodeCodeProduction			Passed
+.[result] GetServerInfoEdgeNodeCodeUpperCaseEcQa			Failed
+F.[result] GetServerRegionById			Passed
+.[result] GetServerRegions4and6Production			Passed
+.[result] GetServerRegionsAll			Passed
+.[result] GetSslCertificateById			Passed
+.[result] GetSslCertificatesAll			Passed
+.[result] GetSslCertificatesAssigned			Passed
+.[result] GetSslCertificatesByPurposeId			Passed
+.[result] GetSslTypeById			Passed
+.[result] GetSslTypesAll			Passed
+.[result] GetVerticalById			Passed
+.[result] GetVerticalsAll			Passed
+.[result] MacAddressGetProduction			Passed
+.[result] GetAllCustomersForWholesaler			Passed
+.[result] GetAllPartnersAccounts			Passed
+.[result] EcProdGetAllCustomers			Passed
+.[result] EcProdGetCustomer			Passed
+.MediaTypeId: 3, Response Code: OK
+[result] LoadToEdge(3)			Passed
+.MediaTypeId: 8, Response Code: OK
+[result] LoadToEdge(8)			Passed
+.MediaTypeId: 2, Response Code: OK
+[result] LoadToEdge(2)			Passed
+.[result] LoadToEdgeAdn			Failed
+F.MediaTypeId: 2, Response Code: OK
+[result] LoadToEdgeByRegion(2)			Passed
+.MediaTypeId: 3, Response Code: OK
+[result] LoadToEdgeByRegion(3)			Passed
+.MediaTypeId: 8, Response Code: OK
+[result] LoadToEdgeByRegion(8)			Passed
+.[result] LoadToEdgeByRegionAdn			Failed
+F.MediaTypeId: 2, Response Code: OK
+[result] PurgeIndividualAsset(2)			Passed
+.MediaTypeId: 3, Response Code: OK
+[result] PurgeIndividualAsset(3)			Passed
+.MediaTypeId: 8, Response Code: OK
+[result] PurgeIndividualAsset(8)			Passed
+.[result] PurgeIndividualAssetAdn			Failed
+F.MediaTypeId: 3, Response Code: OK
+[result] PurgeIndividualAssetByRegion(3)			Passed
+.MediaTypeId: 2, Response Code: OK
+[result] PurgeIndividualAssetByRegion(2)			Passed
+.MediaTypeId: 8, Response Code: OK
+[result] PurgeIndividualAssetByRegion(8)			Passed
+.[result] PurgeIndividualAssetByRegionAdn			Failed
+F
